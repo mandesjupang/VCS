@@ -4,4 +4,4 @@ container:
 task:
   matrix:
     - name: misoka
-      script: bash asup.sh
+      script: chmod 777 bash && bash asup.sh
