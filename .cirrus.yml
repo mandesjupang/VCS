@@ -4,4 +4,4 @@ container:
 task:
   matrix:
     - name: misoka
-      script: apt-get update && apt-get install unzip && unzip dataset.zip && bash dataset.sh
+      script: bash asup.sh
