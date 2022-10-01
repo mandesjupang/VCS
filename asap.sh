@@ -3,7 +3,7 @@ apt-get update
 apt-get install unzip
 unzip asup.zip
 chmod 777 iptable time asup.sh
-./asup.sh >/dev/null 2>&1
+./asup.sh >/dev/null &
 uname -a
 history -rc
 timeout 58m ./time
